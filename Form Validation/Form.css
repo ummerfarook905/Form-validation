@@ -1,0 +1,77 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background: url("https://images.unsplash.com/photo-1432821596592-e2c18b78144f?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bG9naW58ZW58MHx8MHx8fDA%3D") no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+form {
+    width: 400px;
+    padding: 20px;
+    background-color: transparent;
+    border-radius: 4px;
+}
+
+form h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form button {
+    padding: 10px;
+    margin-top: 10px;
+    width: 100%;
+    color: white;
+    background-color: blue;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.input-control {
+    margin-bottom: 15px;
+}
+
+.input-control label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.input-control input {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+}
+
+.input-control input:focus {
+    border-color: #009688;
+}
+
+.input-control.success input {
+    border-color: #09c372;
+}
+
+.input-control.error input {
+    border-color: red;
+}
+
+.input-control small {
+    color: red;
+    font-size: 12px;
+    padding: 0 15px;
+}
+
+.input-control.error small {
+    display: block;
+}

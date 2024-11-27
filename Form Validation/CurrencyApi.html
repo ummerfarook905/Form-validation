@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="Style.css" type="text/css">
+</head>
+<body>
+    <div class="Main-Container">
+        <div class="Nav">
+            <h2>CURRENCY CONVERTER</h2>
+            <p>..Convert currencies instantly with real-time exchange rates..</p>
+        </div>
+        <form action="/" class="form">
+            <div class="inner-container1">
+                <label for="" id="amount-label">Amount</label>
+                <input type="text" id="amount-input" placeholder="100">
+            </div>
+            <div class="inner-container2">
+                <select name="" id="box1"></select>
+                <img src="Images/arrow.png" alt="" id="img">
+                <select name="" id="box2"></select>
+            </div>
+            <div class="inner-container3">
+                <button id="button">Convert</button>
+                <p id="Result"></p>
+            </div>
+        </form>
+    </div>
+    <script src="Currency-code.js"></script>
+    <script src="Api-key.js"></script>
+    <script src="Script.js"></script>
+</body>
+</html>
